@@ -1,0 +1,16 @@
+.navbar{
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    border-bottom: 1px solid #1D3638;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item{
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-item .active{
+    border: 1px solid #1D3638;
+    border-radius: 30px;
+}
