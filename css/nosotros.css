@@ -1,0 +1,62 @@
+:root{
+    --bg-border: #1D3638;
+    --text-black: #2D2A26;
+    --text-green: #558085;    
+}
+.bg-green{
+    color: var(--text-green) !important;
+}
+.navbar{
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    border-bottom: 1px solid var(--bg-border);
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item{
+    border-radius: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.nav-item .active{
+    border: 1px solid var(--bg-border);
+    border-radius: 30px;
+}
+.border-top{
+    border-top: 1px solid var(--bg-border) !important;    
+}
+.border-bottom{
+    border-bottom: 1px solid var(--bg-border) !important;
+}
+.border-end{
+    border-right: 1px solid var(--bg-border) !important;
+}
+.content-info{
+    padding-top: 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.content-info h3{
+    color: var(--text-green);
+    text-align: left;    
+    font-size: 24px;
+    line-height: 29px;
+}
+.content-info p{
+    color: var(--text-black);
+    text-align: left;    
+    font-size: 20px;
+    line-height: 24px;
+}
+.circulos-img{     
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;    
+}
+
+.content-info img{
+    width: 100%;
+    height: 100px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
