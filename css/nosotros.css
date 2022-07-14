@@ -9,6 +9,7 @@
 .navbar{
     background: #F8F8F8 0% 0% no-repeat padding-box;
     border-bottom: 1px solid var(--bg-border);
+    font-family: 'Weissenhof-light';
 }
 .navbar-nav{
     margin-left: auto;
@@ -28,25 +29,31 @@
 .border-bottom{
     border-bottom: 1px solid var(--bg-border) !important;
 }
+.border-start{
+    border-left: 1px solid var(--bg-border) !important;
+}
 .border-end{
     border-right: 1px solid var(--bg-border) !important;
 }
 .content-info{
     padding-top: 3rem;
     padding-left: 10rem;
-    padding-right: 10rem;
+    padding-right: 10rem; 
 }
 .content-info h3{
     color: var(--text-green);
     text-align: left;    
     font-size: 24px;
     line-height: 29px;
+    font-family: 'Weissenhof-light';
+    padding-bottom: 3%;
 }
 .content-info p{
     color: var(--text-black);
     text-align: left;    
     font-size: 20px;
-    line-height: 24px;
+    line-height: 24px; 
+    font-family: 'Weissenhof-light';
 }
 .circulos-img{     
     padding-left: 3rem;
@@ -59,4 +66,40 @@
     height: 100px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+.content-img{
+    width: 100%;
+    padding: 3rem;
+    opacity: 1; 
+}
+.content-img .title{
+    width: 100%;
+    height: 818px;
+    background: transparent url('../img/equipo.png') 33% 34% no-repeat padding-box;
+    opacity: 1;
+    padding: 2rem;
+}
+.content-img .title h2{
+    width: 40%;
+    text-align: center;
+    background-color: #F8F8F8;
+    opacity: 1;
+    padding: 1rem;
+    border-radius: 60px;
+    font-size: 40px;
+    line-height: 53px;
+    font-family: 'gt-super-regular';
+    color: #27494D;    
+}
+
+footer .nav-item{    
+    padding-left: 55px;
+    padding-right: 55px;
+}
+footer .nav-item .nav-link{    
+    color: #2D2A26;
+}
+footer .redes-sociales {
+    font-size: 20px;
+    color: #1D3638;
 }

@@ -9,6 +9,7 @@
 .navbar{
     background: #F8F8F8 0% 0% no-repeat padding-box;
     border-bottom: 1px solid var(--bg-border);
+    font-family: 'Weissenhof-light' !important;
 }
 .navbar-nav{
     margin-left: auto;
@@ -40,6 +41,7 @@
 .content-title h1{
     font-size: 85px;
     line-height: 90px;
+    font-family: 'gt-super-regular';
     padding: 10%;
     color: var(--text-black);
     letter-spacing: 0px;
@@ -47,6 +49,7 @@
 .content-title p{
     font-size: 20px;
     line-height: 24px;
+    font-family: 'Weissenhof-light';
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
@@ -58,15 +61,18 @@
     border-right: 1px solid var(--bg-border);
     width: 100%;
     padding-left: 10%;
-    padding-bottom: 3%;
+    padding-right: 10%;
+    padding-bottom: 8%;
 }
 
 .content-info h3{
+    font-family: 'Weissenhof-light';
     text-align: left;
     color: var(--text-green);
     padding-top: 10%;
 }
 .content-info p{
+    font-family: 'Weissenhof-light';
     text-align: left;
     padding-top: 1rem;
 }
@@ -84,10 +90,6 @@
     padding-top: 10%;
     padding-bottom: 10%;
 }
-/* .content-img img{
-    margin-left: 15%;
-    margin-right: 15%;    
-} */
 .content-cards{
     border-top: 1px solid var(--bg-border);
     display: flex;
@@ -103,7 +105,8 @@
     height: 226px;
     margin-left: 6%;
 }
-.content-cards .card h2{    
+.content-cards .card h2{
+    font-family: 'gt-super-book';
     font-size: 39px;
     line-height: 43px;
     margin: auto;    
@@ -112,6 +115,7 @@
     margin: auto;
     font-size: 18px;
     line-height: 24px;
+    font-family: font-family: 'Weissenhof-light';
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 20%;
@@ -127,7 +131,17 @@
 .content-cards .card:hover p{    
     color: #F8F8F8 !important;   
 }
-
+footer .nav-item{    
+    padding-left: 55px;
+    padding-right: 55px;
+}
+footer .nav-item .nav-link{    
+    color: #2D2A26;
+}
+footer .redes-sociales {
+    font-size: 20px;
+    color: #1D3638;
+}
 @media (min-width: 200px) and (max-width:480px){
     .nav-item{        
         padding-left: 0px;

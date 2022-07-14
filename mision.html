@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cendel - Misión</title>
+    <link rel="shortcut icon" href="./img/logo-footer.svg" type="image/x-icon" /> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/mision.css">
 </head>
 <body>
@@ -14,7 +16,7 @@
         <section>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#"><img src="./img/logo_nav.svg" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -24,13 +26,13 @@
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">¿Quiénes somos?</a>
+                        <a class="nav-link" href="#">¿Quiénes somos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Misión</a>
+                        <a class="nav-link active" href="#">Misión</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link bg-green" href="#">Contáctanos</a>
+                        <a class="nav-link bg-green" href="contacto.html">Contáctanos</a>
                     </li>
                     </ul>
                 </div>
@@ -39,44 +41,282 @@
         </section>
         <!-- endNavbar -->
         <!-- mision -->
-        <section style="display: none;">
+        <section>
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12 border-end">
-                
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
-                <div class="content-info-equipo">
-                    <h3>Nuestro equipo</h3>
-                    <p>Esta conformado por expertos multidisciplinarios que combinan conocimiento teórico y capacidad técnica con una gran habilidad para la implementación, medición y evaluación de procesos prácticos.</p>
+            <div class="col-lg-8 col-md-6 col-sm-12 col-12">
+                <div class="content">
+                    <div class="img"><img src="./img/ODS-Rueda-1.png" alt=""></div>
+                    <h2>Misión</h2>
+                    <p>El cumplimiento y el éxito de la agenda se basan en las políticas, planes locales y nacionales con los compromisos mundiales y programas de desarrollo sostenible de los países y están dirigidos por estos. Los Objetivos de Desarrollo Sostenible (ODS) actúan como una brújula a la hora de armonizar los planes nacionales con los compromisos mundiales de los países.</p>
                 </div>
-                <img class="circulos-img" src="./img/circulos.svg" alt="">
-                <div class="content-info-equipo">
-                    <h3>Visión</h3>
-                    <p>CENDEL es una agencia consultora eficiente, orientada a la generación de bienestar social, que acompaña desde el conocimiento experto a diversas organizaciones y a organismos de gobierno a cumplir objetivos claros y medibles. Somos una agencia permanentemente actualizada, que conoce las grandes tendencias sociales y políticas del momento pero que asume una perspectiva crítica y propositiva hacia ellas.</p>
-                </div>                    
+                <div class="content-cards">            
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="1">
+                                    <p>Fin de la pobreza</p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/family.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="2">
+                                    <p>Educación de Calidad</p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/book.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="3">
+                                    <p>Energías sostenibles</p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/energy.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="4">
+                                    <p>
+                                        Reducción de las desigualdades
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/red-igualdades.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="5">
+                                    <p>
+                                        Hambre Cero
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/hambre_0.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="6">
+                                    <p>
+                                        Igualdad de género
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/igualdad.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="7">
+                                    <p>
+                                        Empleo y crecimiento económico
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/empleo.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="8">
+                                    <p>
+                                        Ciudades y comunidades sostenibles
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/ciudades.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="9">
+                                    <p>
+                                        Buena salud
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/salud.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="10">
+                                    <p>
+                                        Agua potable y saneamiento
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/agua.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="11">
+                                    <p>
+                                        Innovación y estructura
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/inovacion.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="12">
+                                    <p>
+                                        Consumo y producción sostenibles
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/consumo_produccion_icono.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="13">
+                                    <p>
+                                        Acción por el clima
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/accion_clima_icono.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="14">
+                                    <p>
+                                        Paz y justicia
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/paz.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="15">
+                                    <p>
+                                        Vida submarina
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/vida_submarina.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="16">
+                                    <p>
+                                        Alianza para el logro de los objetivos
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/alianza.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <a href="#">
+                                <div class="card" data-id="17">
+                                    <p>
+                                        Flora y fauna terrestre
+                                    </p>
+                                    <div class="linea"></div>
+                                    <div class="img">
+                                        <img src="./img/flora_fauna.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-12 text-center">
+                <div class="content-info">
+                    <div class="empty">
+
+                    </div>
+                    <div class="card-info">
+                        <div class="img">
+                            <img id="img_icon" src="" alt="">
+                        </div>                        
+                    </div>
+                    <h3 class="title-info" id="title_info"></h3>
+                    <div id="parrafos">
+
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-lg-12 border-top">
             </div>
         </div>
         </section>
         <!-- endmision -->
         <!-- Footer -->
         <section>
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <p class="col-md-12 mb-0 text-muted">&copy; 2021 Company, Inc</p>        
-            <ul class="nav col-md-12 justify-content-end">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-            </ul>
-            <!-- <a href="#" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                CENDEL
-            </a> -->
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+              <div class="col-md-2 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                  <img src="./img/logo-footer.svg" alt="">
+                </a>          
+              </div>
+              <ul class="nav col-md-8 justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="nosotros.html">¿Quiénes somos?</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Misión</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contáctanos</a></li>
+              </ul>
+              <ul class="nav col-md-2 justify-content-end list-unstyled d-flex">
+                <li class="ms-2"><a class="redes-sociales" href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                <li class="ms-2"><a class="redes-sociales" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="ms-2"><a class="redes-sociales" href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              </ul>
             </footer>
         </section>
         <!-- endFooter -->
     </div>
+    <script src="https://kit.fontawesome.com/f2e671267a.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./js/catalogo_3020.js"></script>
+    <script src="./js/catalogo.js"></script>
 </body>
 </html>

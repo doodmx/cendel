@@ -1,0 +1,173 @@
+:root{
+    --bg-border: #1D3638;
+    --text-black: #2D2A26;
+    --text-green: #558085;       
+}
+.bg-green{
+    color: var(--text-green) !important;
+}
+.navbar{
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    border-bottom: 1px solid var(--bg-border);
+    font-family: 'Weissenhof-light';
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item{
+    border-radius: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.nav-item .active-nav{
+    border: 1px solid var(--bg-border);
+    border-radius: 30px;
+}
+.border-top{
+    border-top: 1px solid var(--bg-border) !important;    
+}
+.border-bottom{
+    border-bottom: 1px solid var(--bg-border) !important;
+}
+.border-start{
+    border-left: 1px solid var(--bg-border) !important;
+}
+.border-end{
+    border-right: 1px solid var(--bg-border) !important;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between!important;
+    border-right: 1px solid var(--bg-border);
+}
+.content .img{
+    margin: auto;
+    padding: 12%;
+}
+.content h2{
+    margin: auto;
+    font-size: 46px;
+    line-height: 53px;
+    font-family: 'gt-super-regular';
+    text-align: center;
+    letter-spacing: 0px;
+    color: #1D3638;
+        opacity: 1;
+}
+.content p {
+    margin: auto;
+    padding: 10%;
+    text-align: left;    
+    font-family: 'Weissenhof-light';
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: var(--text-green);
+    opacity: 1;
+}
+.content-cards{
+    border-top: 1px solid var(--bg-border);
+    border-right: 1px solid var(--bg-border);
+    padding-bottom: 5%;
+}
+.content-cards a{
+    text-decoration: none;
+}
+.card{
+    margin-top: 4rem !important;
+    width: 65%;
+    height: 104px;
+    margin: auto;
+    border-radius: 32px;
+    border: 1px solid var(--bg-border);
+    flex-direction: row;    
+}
+.selected {
+    background-color: var(--bg-border) !important;    
+}
+.selected p{
+    color: #F8F8F8 !important;
+}
+.selected img {
+     filter: invert(1%) sepia(92%) saturate(80) hue-rotate(0deg) brightness(90%) contrast(110%) !important;
+}
+.selected .linea{
+    border-left: 6px solid #558085 !important;
+}
+.card p{
+    text-align: left;
+    font: normal normal 300 20px/24px 'Weissenhof-light';
+    letter-spacing: 0px;
+    color: #1D3638;
+    opacity: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+    padding-right: 0.5rem;
+    width: 50%;
+}
+.card .linea{
+    border-left: 6px solid #F5623E;
+    height:  70%;
+    margin-top: auto; 
+    margin-bottom: auto;
+}
+.card .img{    
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2rem; 
+    width: 50%;    
+    padding-left: 3rem;   
+}
+.content-info .card-info{
+    display: none;
+    width: 70%;
+    padding: 3rem;
+    border: 1px solid var(--bg-border);
+    border-radius: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+.content-info img{    
+    margin: auto;
+    filter: invert(1%) sepia(92%) saturate(80) hue-rotate(0deg) brightness(90%) contrast(110%) !important;
+
+}
+.content-info .title-info{
+    margin-top: 5%;
+    color: var(--text-green);
+    text-align: center;
+    font: normal normal 300 24px/29px 'Weissenhof-light';
+}
+.content-info .text-info{
+    margin-top: 5%;
+    text-align: left;
+    font: normal normal 300 16px/19px 'Weissenhof-light';
+    letter-spacing: 0px;
+    color: #2D2A26 !important;
+    opacity: 1;    
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.content-info .empty{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid var(--text-green) ;
+    margin: auto;
+    margin-top: 50%;
+    display: block;
+}
+footer .nav-item{    
+    padding-left: 55px;
+    padding-right: 55px;
+}
+footer .nav-item .nav-link{    
+    color: #2D2A26;
+}
+footer .redes-sociales {
+    font-size: 20px;
+    color: #1D3638;
+}
