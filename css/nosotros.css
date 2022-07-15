@@ -19,9 +19,9 @@
     padding-left: 55px;
     padding-right: 55px;
 }
-.nav-item .active{
+.navbar-nav .active{
     border: 1px solid var(--bg-border);
-    border-radius: 30px;
+    border-radius: 30px;    
 }
 .border-top{
     border-top: 1px solid var(--bg-border) !important;    
@@ -72,10 +72,24 @@
     padding: 3rem;
     opacity: 1; 
 }
+.content-img .mobile{
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    opacity: 1;
+    padding: 1rem;
+    border-radius: 60px;
+    font-size: 40px;
+    line-height: 53px;
+    font-family: 'gt-super-regular';
+    color: #27494D;
+    border: 1px solid  var(--bg-border);
+    display: none;
+}
 .content-img .title{
     width: 100%;
     height: 818px;
-    background: transparent url('../img/equipo.png') 33% 34% no-repeat padding-box;
+    background: transparent url('../img/equipo.png') 77% 34% no-repeat padding-box;
     opacity: 1;
     padding: 2rem;
 }
@@ -102,4 +116,80 @@ footer .nav-item .nav-link{
 footer .redes-sociales {
     font-size: 20px;
     color: #1D3638;
+    margin-right: 1rem;
+}
+
+@media (min-width: 200px) and (max-width:991px){
+    .navbar  .nav-item{        
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar  .img-nav{
+        content:url("../img/logo_icon_nav.svg") !important;
+    } 
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: rgba(0,0,0,0);
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url('../img/hamburguesa.svg') !important;
+    }
+    .navbar .navbar-collapse {
+      width: 100% !important;
+      margin-top: 1rem;
+    }
+
+    .navbar .nav-item{
+        border: 1px solid var(--bg-border);
+        border-radius: 30px;
+        padding: .75rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .content-img{
+        width: 100%;
+        padding: 0rem;
+        padding-top: 3rem;     
+        opacity: 1; 
+        padding-left: 2rem;
+        padding-right: 2rem; 
+    }
+    .content-img .mobile{
+        display: block;
+        margin-bottom: 3rem; 
+    }
+    .content-img .title{        
+        height: 700px;
+        background: transparent url('../img/equipo.png') 70% 37% no-repeat padding-box;    
+    }
+    .content-img .title h2{
+        display: none;
+    }
+    .content-info{
+        padding-top: 0rem;
+        padding-left: 2rem;
+        padding-right: 2rem; 
+    }
+    .py-5{
+        padding-top: 0rem!important;
+        padding-bottom: 0rem!important;
+    }
+    .content-info h3{
+        color: var(--text-green);
+        text-align: center;    
+        font-size: 24px;
+        line-height: 29px;
+        font-family: 'Weissenhof-light';
+        padding-bottom: 3%;
+    }
+    .content-info p{
+        padding-bottom: 1rem; 
+    }
+    .circulos-img{     
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-top: 0rem;
+        width: 100%;
+    }
 }
