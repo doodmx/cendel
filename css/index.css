@@ -3,6 +3,35 @@
     --text-black: #2D2A26;
     --text-green: #558085;    
 }
+.color-1{
+    top: 202px;
+    left: -150px;
+    width: 263px;
+    height: 263px;
+    background: transparent radial-gradient(closest-side at 50% 50%, #558085 0%, #94AFB29A 100%, #F8F8F8 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.55;
+    filter: blur(50px);
+    position: absolute;
+}
+.color-2{
+    top: 363px;
+    left: -160px;
+    width: 263px;
+    height: 263px;
+    background: transparent radial-gradient(closest-side at 50% 50%, #1D3638 0%, #647576AC 100%, #F8F8F800 100%, #F8F8F8 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.55;
+    filter: blur(50px);
+    position: absolute;
+}
+.color-3{ 
+    right: -100px;
+    width: 263px;
+    height: 263px;
+    position: absolute;
+    background: transparent radial-gradient(closest-side at 50% 50%, #558085 0%, #94AFB29A 100%, #F8F8F8 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.55;
+    filter: blur(50px);
+}
 .bg-green{
     color: var(--text-green) !important;
 }
@@ -143,7 +172,7 @@ footer .redes-sociales {
     color: #1D3638;
     margin-right: 1rem;
 }
-@media (min-width: 200px) and (max-width:480px){
+@media (min-width: 200px) and (max-width:991px){
     .navbar  .nav-item{        
         padding-left: 0px;
         padding-right: 0px;
@@ -171,7 +200,9 @@ footer .redes-sociales {
         margin-bottom: 1rem;
         text-align: center;
     }
-
+    .color-3, .color-1, .color-2{
+        display: none;
+    }
     .content-title{
         width: 100% !important;
         border-bottom: 1px solid var(--bg-border);
