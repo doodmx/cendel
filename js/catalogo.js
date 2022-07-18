@@ -1,8 +1,9 @@
 var elements = document.getElementsByClassName("card");
 let oldElement = null;
 let p = null;
-
+console.log(screen.width);
 if (screen.width <= 991){ 
+    console.log('entra');
     var link = document.getElementsByClassName("btn-card");    
     for(let j = 0; j < link.length; j++){
         console.log(link[j]);
@@ -11,6 +12,7 @@ if (screen.width <= 991){
     }
     p = document.getElementById('parrafos_2');
 }else{
+    console.log('otro');
     p = document.getElementById('parrafos');
 }
 var myFunction = function() {
