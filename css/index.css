@@ -4,8 +4,8 @@
     --text-green: #558085;    
 }
 .color-1{
-    top: 202px;
-    left: -150px;
+    top: 80px;
+    left: -160px;
     width: 263px;
     height: 263px;
     background: transparent radial-gradient(closest-side at 50% 50%, #558085 0%, #94AFB29A 100%, #F8F8F8 100%) 0% 0% no-repeat padding-box;
@@ -14,7 +14,7 @@
     position: absolute;
 }
 .color-2{
-    top: 363px;
+    top: 250px;
     left: -160px;
     width: 263px;
     height: 263px;
@@ -24,9 +24,10 @@
     position: absolute;
 }
 .color-3{ 
-    right: -100px;
+    right: 0px;
     width: 263px;
     height: 263px;
+    top: 1000px;
     position: absolute;
     background: transparent radial-gradient(closest-side at 50% 50%, #558085 0%, #94AFB29A 100%, #F8F8F8 100%) 0% 0% no-repeat padding-box;
     opacity: 0.55;
@@ -68,10 +69,12 @@
     border-right: 1px solid var(--bg-border);
 }
 .content-title h1{
-    font-size: 85px;
+    font-size: 80px;
     line-height: 90px;
     font-family: 'gt-super-regular';
-    padding: 10%;
+    padding-left: 10%;
+    padding-top: 6%;
+    padding-bottom: 5%;
     color: var(--text-black);
     letter-spacing: 0px;
 }
@@ -91,7 +94,7 @@
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 8%;
+    padding-bottom: 10rem;
 }
 
 .content-info h3{
@@ -117,22 +120,28 @@
 }
 .content-img{
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 3%;
+}
+.content-img img{
+    width: 100%;
 }
 .content-cards{
     border-top: 1px solid var(--bg-border);
     display: flex;
     flex-direction: row;
     padding-top: 3%;
+    justify-content: space-between!important;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 .content-cards .card{    
     flex-direction: row;
     border: 1px solid var(--text-green);
     border-radius: 77px;
-    padding: 2rem;
-    width: 650px;
+    padding: 1rem;
+    width: 600px;
     height: 226px;
-    margin-left: 6%;
+    margin-left: 0%;
 }
 .content-cards .card h2{
     font-family: 'gt-super-book';
@@ -144,7 +153,7 @@
     margin: auto;
     font-size: 18px;
     line-height: 24px;
-    font-family: font-family: 'Weissenhof-light';
+    font-family: 'Weissenhof-light';
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 20%;
@@ -289,7 +298,7 @@ footer .redes-sociales {
         text-align: center;
     }    
 }
-@media (min-width: 481px) and (max-width:1000px){
+@media (min-width: 481px) and (max-width:991px){
     .nav-item{        
         padding-left: 0px;
         padding-right: 0px;
@@ -374,5 +383,57 @@ footer .redes-sociales {
         line-height: 19px;
         padding: 5%;
         text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1360px){
+   
+    .content-circle{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;                
+        margin-top: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-img{
+        border-top: 1px solid var(--bg-border);
+    }
+    .content-img img{
+        width: 100%;
+        height: 700px;
+    }
+    .content-cards{ 
+        border-top: 1px solid var(--bg-border);
+        display: flex;
+        flex-direction: row;
+        padding-top: 3%;
+    }
+    .content-cards .card{    
+        flex-direction: row;
+        border: 1px solid var(--text-green);
+        border-radius: 77px;
+        padding: 2rem;
+        width: 100%;
+        height: 180px;
+        margin-right: 1rem;
+        margin-bottom: 4%; 
+    }
+    .content-cards .card h2{    
+        font-size: 28px;
+        line-height: 35px;
+        text-align: center;
+        margin: auto;    
+    }
+    .content-cards .card p{
+        margin: auto;
+        font-size: 14px;
+        line-height: 19px;
+        padding: 5%;
+        text-align: center;
+    }
+    .color-3{ 
+        right: 0px;        
+        top: 1020px;        
     }
 }

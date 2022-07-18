@@ -123,15 +123,19 @@
     margin-right: auto;
     margin-top: 1.75rem;
     border: 1px solid var(--bg-border);
-    border-radius: 35px;  
+    border-radius: 35px;    
 }
 .info-contacto :hover{
     background-color: #1D3638;
 }
+.info-contacto a{
+    text-decoration: none;
+    color: #558085;
+}
 .info-contacto :hover i{
     color: #F5623E;
 }
-.info-contacto :hover p{
+.info-contacto :hover a{
     color: #F8F8F8;
 }
 .info-contacto .content-info{    
@@ -198,8 +202,7 @@ footer .redes-sociales {
         margin-right: 0;
         margin-top: 1.75rem;
         border: 1px solid var(--bg-border); 
-        width: 100% !important;
-        border-radius: 0px;
+        width: 100% !important;        
         margin-top: 1rem;  
         background-color: #1D3638;
         margin-bottom: 2rem;
