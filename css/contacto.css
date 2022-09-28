@@ -300,5 +300,9 @@ footer .redes-sociales {
     .content-form form{
         margin-bottom: 10%;
     }
+    .content-img .title{
+        background: transparent url('../img/contacto.png') center/90% no-repeat padding-box;
+    }
+
     
 }
