@@ -133,6 +133,9 @@ footer .redes-sociales {
     color: #1D3638;
     margin-right: 1rem;
 }
+.container-mobile{
+    margin-top: 0;
+}
 
 @media (min-width: 200px) and (max-width:991px){
     .navbar  .nav-item{        
@@ -217,8 +220,8 @@ footer .redes-sociales {
         width: 100%;
     }
 }
-@media (max-height: 825px){
+/* @media (max-height: 825px){
     .container-mobile{
         margin-top: 400px;
     }
-}
+} */
