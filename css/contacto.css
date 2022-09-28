@@ -1,55 +1,70 @@
-:root{
+:root {
     --bg-border: #1D3638;
     --text-black: #2D2A26;
-    --text-green: #558085;    
+    --text-green: #558085;
 }
-.bg-green{
+
+.bg-green {
     color: var(--text-green) !important;
 }
-.navbar{
+
+.navbar {
     background: #F8F8F8 0% 0% no-repeat padding-box;
     border-bottom: 1px solid var(--bg-border);
     font-family: 'Weissenhof-light';
 }
-.navbar-nav{
+
+.navbar-section {
+    margin-bottom: 46px;
+}
+
+.navbar-nav {
     margin-left: auto;
 }
-.nav-item{
+
+.nav-item {
     border-radius: 30px;
     padding-left: 55px;
     padding-right: 55px;
 }
-.navbar-nav .active{
+
+.navbar-nav .active {
     border: 1px solid var(--bg-border);
-    border-radius: 30px;    
+    border-radius: 30px;
 }
-.border-top{
-    border-top: 1px solid var(--bg-border) !important;    
+
+.border-top {
+    border-top: 1px solid var(--bg-border) !important;
 }
-.border-bottom{
+
+.border-bottom {
     border-bottom: 1px solid var(--bg-border) !important;
 }
-.border-start{
+
+.border-start {
     border-left: 1px solid var(--bg-border) !important;
 }
-.border-end{
+
+.border-end {
     border-right: 1px solid var(--bg-border) !important;
 }
 
-.content-img{
+.content-img {
     width: 100%;
     padding: 3rem;
-    opacity: 1; 
+    opacity: 1;
     border-right: 1px solid var(--bg-border);
 }
-.content-img .title{
+
+.content-img .title {
     width: 100%;
     height: 818px;
     background: transparent url('../img/contacto.png') 33% 34% no-repeat padding-box;
     opacity: 1;
     padding: 2rem;
 }
-.content-img .title h2{
+
+.content-img .title h2 {
     width: 40%;
     text-align: center;
     background-color: #F8F8F8;
@@ -59,10 +74,11 @@
     font-size: 40px;
     line-height: 53px;
     font-family: 'gt-super-regular';
-    color: #27494D;    
+    color: #27494D;
 }
-.mobile{
-    width: 80%; 
+
+.mobile {
+    width: 80%;
     margin: auto;
     margin-top: 3rem;
     text-align: center;
@@ -74,143 +90,204 @@
     line-height: 53px;
     font-family: 'gt-super-regular';
     color: #27494D;
-    border: 1px solid  var(--bg-border);
+    border: 1px solid var(--bg-border);
     display: none;
 }
-.content-img .title img{
+
+.content-img .title img {
     width: 45%;
     margin-left: 29%;
     margin-top: 60%;
 }
-.content-form h4{
+
+.content-form h4 {
     font: normal normal 300 24px/29px 'Weissenhof-light';
     letter-spacing: 0px;
     color: #2D2A26;
     opacity: 1;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
-.content-form input{
+
+.content-form input {
     width: 85%;
     margin-left: auto;
-    margin-right: auto;        
-    margin-top: 1.75rem;
+    margin-right: auto;
+    margin-top: 2rem;
     border-radius: 30px;
     min-height: calc(2em + 1rem + 2px);
-    border: 1px solid #558085;    
+    border: 1px solid #558085;
 }
-.content-form textarea{
+
+.content-form textarea {
     width: 85%;
     height: 169px;
     margin-left: auto;
-    margin-right: auto;        
-    margin-top: 1.75rem;
-    border-radius: 35px;    
-    border: 1px solid #558085;    
+    margin-right: auto;
+    margin-top: 2rem;
+    border-radius: 35px;
+    border: 1px solid #558085;
 }
 
-.content-form button{
+.content-form button {
     width: 85%;
     min-height: calc(2em + 2rem + 2px);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1.75rem;
-    border-radius: 35px; 
+    margin-top: 2rem;
+    border-radius: 35px;
     border: 1px solid #558085;
-    color: #558085;    
+    color: #558085;
 }
-.info-contacto{
+
+.info-contacto {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.75rem;
     border: 1px solid var(--bg-border);
-    border-radius: 35px;    
+    border-radius: 35px;
 }
-.info-contacto :hover{
+
+.info-contacto :hover {
     background-color: #1D3638;
 }
-.info-contacto a{
+
+.info-contacto a {
     text-decoration: none;
     color: #558085;
 }
-.info-contacto :hover i{
+
+.info-contacto :hover i {
     color: #F5623E;
 }
-.info-contacto :hover a{
+
+.info-contacto :hover a {
     color: #F8F8F8;
 }
-.info-contacto .content-info{    
+
+.info-contacto .content-info {
     display: flex;
     flex-direction: row;
     padding: 1rem;
     border-radius: 35px;
 }
-.info-contacto p{
+
+.info-contacto p {
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
 }
-footer .nav-item{    
+
+/* .main-container{
+    height: 90vh;
+} */
+footer .nav-item {
     padding-left: 55px;
     padding-right: 55px;
 }
-footer .nav-item .nav-link{    
+
+footer .nav-item .nav-link {
     color: #2D2A26;
 }
+
 footer .redes-sociales {
     font-size: 25px;
     color: #1D3638;
     margin-right: 1rem;
 }
 
-@media (min-width: 200px) and (max-width:991px){
-    .navbar  .nav-item{        
+@media (min-width: 200px) and (max-width:991px) {
+    .navbar .nav-item {
         padding-left: 0px;
         padding-right: 0px;
     }
-    .navbar  .img-nav{
-        content:url("../img/logo_icon_nav.svg") !important;
-    } 
+
+    .navbar .img-nav {
+        content: url("../img/logo_icon_nav.svg") !important;
+    }
+
     .navbar-light .navbar-toggler {
-        color: rgba(0,0,0,.55);
-        border-color: rgba(0,0,0,0);
+        color: rgba(0, 0, 0, .55);
+        border-color: rgba(0, 0, 0, 0);
     }
 
     .navbar-light .navbar-toggler-icon {
         background-image: url('../img/hamburguesa.svg') !important;
     }
+
     .navbar .navbar-collapse {
-      width: 100% !important;
-      margin-top: 1rem;
+        width: 100% !important;
+        margin-top: 1rem;
     }
 
-    .navbar .nav-item{
+    .navbar .nav-item {
         border: 1px solid var(--bg-border);
         border-radius: 30px;
         padding: .75rem;
         margin-bottom: 1rem;
         text-align: center;
     }
-    .mobile{
+
+    .mobile {
         display: block;
     }
-    .content-img{
+
+    .content-img {
         display: none;
     }
-    .info-contacto{
+
+    .info-contacto {
         margin-left: 0;
         margin-right: 0;
         margin-top: 1.75rem;
-        border: 1px solid var(--bg-border); 
-        width: 100% !important;        
-        margin-top: 1rem;  
+        border: 1px solid var(--bg-border);
+        width: 100% !important;
+        margin-top: 1rem;
         background-color: #1D3638;
         margin-bottom: 2rem;
     }
-    .info-contacto  i{
+
+    .info-contacto i {
         color: #F5623E;
     }
-    .info-contacto  p{
+
+    .info-contacto p {
         color: #F8F8F8;
     }
+}
+
+@media (min-width: 1500px) {
+    .content-img {
+        position: relative;
+    }
+
+    .content-img .title img {
+        width: 40%;
+        margin: 0;
+        left: 25%;
+        position: absolute;
+        bottom: 30%;
+    }
+
+    #footer {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .main-content{
+        height: 90vh;
+    }
+    .content-img .title {
+        height: 83vh;
+    }
+    .content-img .title h2{
+        margin-top: 90px;
+    }
+
+    
+
+
 }

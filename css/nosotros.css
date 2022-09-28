@@ -3,8 +3,17 @@
     --text-black: #2D2A26;
     --text-green: #558085;    
 }
+/* html, body{
+    height: 100vh;
+}
+*{
+    box-sizing: border-box;
+} */
 .bg-green{
     color: var(--text-green) !important;
+}
+.navbar-section{
+    margin-bottom: 30px;
 }
 .navbar{
     background: #F8F8F8 0% 0% no-repeat padding-box;
@@ -70,6 +79,10 @@
     width: 100%;
     padding: 3rem;
     opacity: 1; 
+    background: transparent url('../img/equipo.png') no-repeat padding-box;
+    background-position: center;
+    background-size: contain;
+    background-size: auto;
 }
 .content-img .mobile{
     width: 100%;
@@ -88,7 +101,7 @@
 .content-img .title{
     width: 100%;
     height: 818px;
-    background: transparent url('../img/equipo.png') 77% 34% no-repeat padding-box;
+    /* background: transparent url('../img/equipo.png') 77% 34% no-repeat padding-box; */
     opacity: 1;
     padding: 2rem;
 }
@@ -103,6 +116,9 @@
     line-height: 53px;
     font-family: 'gt-super-regular';
     color: #27494D;    
+}
+.main-container{
+    height: 90vh;
 }
 
 footer .nav-item{    
@@ -280,7 +296,6 @@ footer .redes-sociales {
         text-align: center;
     }
 }
-
 @media (min-width: 992px) and (max-width:1360px){
    
     .content-circle{

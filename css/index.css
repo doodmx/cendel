@@ -41,6 +41,9 @@
     border-bottom: 1px solid var(--bg-border);
     font-family: 'Weissenhof-light' !important;
 }
+.navbar-section{
+    margin-bottom: 30px;
+}
 .navbar-nav{
     margin-left: auto;
 }
@@ -48,6 +51,7 @@
     border-radius: 30px;
     padding-left: 55px;
     padding-right: 55px;
+    line-height: 16px;
 }
 .navbar-nav .active{
     border: 1px solid var(--bg-border);
@@ -63,28 +67,34 @@
 .border-end{
     border-right: 1px solid var(--bg-border) !important;
 }
+.main-container{
+    height: auto;
+}
 .content-title{
     width: 100% !important;
+    height: 70%;
     border-bottom: 1px solid var(--bg-border);
     border-right: 1px solid var(--bg-border);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .content-title h1{
-    font-size: 80px;
-    line-height: 90px;
+    width: 75%;
+    font-size: 56px;
+    line-height: 80px;
     font-family: 'gt-super-regular';
-    padding-left: 10%;
-    padding-top: 6%;
-    padding-bottom: 5%;
+    padding: 40px;
+    margin-top: 60px;
     color: var(--text-black);
-    letter-spacing: 0px;
 }
 .content-title p{
-    font-size: 20px;
-    line-height: 24px;
+    width: 75%;
+    font-size: 18px;
+    line-height: 32px;
     font-family: 'Weissenhof-light';
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10%;
+    padding: 0 40px 40px;
     color: var(--text-black);
     letter-spacing: 0px;    
     opacity: 1;
@@ -92,21 +102,34 @@
 .content-info{
     border-right: 1px solid var(--bg-border);
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10rem;
+    height: 30%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .content-info h3{
     font-family: 'Weissenhof-light';
     text-align: left;
     color: var(--text-green);
-    padding-top: 10%;
 }
 .content-info p{
     font-family: 'Weissenhof-light';
+    font-size: 18px;
     text-align: left;
-    padding-top: 1rem;
+    line-height: 24px;
+}
+.content-info .card-content{
+    width: 40%;
+}
+.content-info .card-content:nth-child(2){
+    width: 20%;
+}
+.card-content:nth-child(2){
+    display: grid;
+    place-items: center;
 }
 .content-circle{
     width: 90px;
@@ -114,9 +137,9 @@
     border-radius: 50%;
     border: 1px solid #F5623E;
     opacity: 1;
-    margin-top: 50%;
+    /* margin-top: 50%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 .content-img{
     padding-top: 10%;
@@ -125,22 +148,31 @@
 .content-img img{
     width: 100%;
 }
+.container-cards{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
 .content-cards{
     border-top: 1px solid var(--bg-border);
     display: flex;
     flex-direction: row;
-    padding-top: 3%;
-    justify-content: space-between!important;
-    padding-left: 4rem;
+    padding-top: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-left: 4rem;
     padding-right: 4rem;
+    padding-bottom: 2rem; */
 }
-.content-cards .card{    
+.content-cards .card{ 
+    display: flex;   
     flex-direction: row;
     border: 1px solid var(--text-green);
-    border-radius: 77px;
-    padding: 1rem;
-    width: 600px;
-    height: 226px;
+    border-radius: 70px;
+    padding: 20px;
+    width: 37%;
+    height: 250px;
     margin-left: 0%;
 }
 .content-cards .card h2{
@@ -154,10 +186,7 @@
     font-size: 18px;
     line-height: 24px;
     font-family: 'Weissenhof-light';
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 20%;
-    padding-right: 5%;
+    padding-left: 20px;
     text-align: left;
 }
 .content-cards .card:hover{    
@@ -214,6 +243,7 @@ footer .redes-sociales {
     }
     .content-title{
         width: 100% !important;
+        height: auto;
         border-bottom: 1px solid var(--bg-border);
         border-right: 0px solid var(--bg-border);
         padding-top: 3rem;
@@ -230,34 +260,33 @@ footer .redes-sociales {
         padding-left: 0%;
         padding-right: 0%;
         padding-bottom: 2rem;
-        padding-top: 3%;
+        padding-top: 10px;
         color: var(--text-black);
         color: var(--text-black);        
     }
     .content-info{
         border-right: 0px solid var(--bg-border);
         width: 100%;
+        height: auto;
         padding-left: 0%;
         padding-bottom: 0%;
+        flex-direction: column;
+        margin-bottom: 30px;
     }    
     .content-info h3{
         text-align: center;
         color: var(--text-green);
-        padding-top: 1.75rem;         
+        margin-top: 1.75rem;         
     }
     .content-info p{
         text-align: center;
-        padding-top: 1rem;        
+        margin-top: 1rem;        
     }
     .content-circle{
-        width: 90px;
-        height: 90px;
-        border-radius: 50%;
+        width: 80px;
+        height: 80px;
         border: 1px solid #F5623E;
         opacity: 1;
-        margin-top: 2%;    
-        margin-left: auto;
-        margin-right: auto;
     }
     .content-img{
         border-top: 1px solid var(--bg-border);
@@ -265,28 +294,38 @@ footer .redes-sociales {
     }
     .content-img img{
         width: 350px;
-        height: 300px;
+        height: auto;
         margin-left: 1%;
+    }
+    .content-info .card-content{
+        width: 90%;
     }
     .content-cards{
         border-top: 1px solid var(--bg-border);
-        display: block;
+        display: flex;
         flex-direction: column;
-        padding-top: 3%;
+        min-height: auto;
+        /* padding-top: 120px;
+        padding-bottom: 40px; */
     }
     .content-cards .card{    
         flex-direction: column;
         border: 1px solid var(--text-green);
-        border-radius: 77px;
+        border-radius: 50px;
         padding: 2rem;
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: auto;
         margin: auto;
-        margin-bottom: 4%; 
+        margin-bottom: 20px; 
     }
-    .content-cards .card h2{    
-        font-size: 40px;
-        line-height: 35px;
+    .content-cards .card:first-child{ 
+        margin: 20px 0;   
+        
+    }
+    .content-cards .card h2{  
+        padding-top: 10px;  
+        font-size: 36px;
+        line-height: 38px;
         text-align: center;
         margin: auto;    
     }
@@ -359,17 +398,19 @@ footer .redes-sociales {
         border-top: 1px solid var(--bg-border);
         display: block;
         flex-direction: column;
-        padding-top: 3%;
+        /* padding-top: 3%; */
+        height: auto;
+        width: 90%;
     }
+
     .content-cards .card{    
         flex-direction: column;
         border: 1px solid var(--text-green);
         border-radius: 77px;
-        padding: 2rem;
+        padding: 10px;
         width: 100%;
         height: 100%;
         margin: auto;
-        margin-bottom: 4%; 
     }
     .content-cards .card h2{    
         font-size: 40px;
@@ -381,7 +422,6 @@ footer .redes-sociales {
         margin: auto;
         font-size: 14px;
         line-height: 19px;
-        padding: 5%;
         text-align: center;
     }
 }
@@ -392,9 +432,9 @@ footer .redes-sociales {
         width: 70px;
         height: 70px;
         border-radius: 50%;                
-        margin-top: 100%;
+        /* margin-top: 100%;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; */
     }
     .content-img{
         border-top: 1px solid var(--bg-border);
@@ -407,17 +447,17 @@ footer .redes-sociales {
         border-top: 1px solid var(--bg-border);
         display: flex;
         flex-direction: row;
-        padding-top: 3%;
+        /* padding-top: 3%; */
     }
     .content-cards .card{    
         flex-direction: row;
         border: 1px solid var(--text-green);
         border-radius: 77px;
-        padding: 2rem;
+        padding: 10px;
         width: 100%;
-        height: 180px;
+        height: 220px;
         margin-right: 1rem;
-        margin-bottom: 4%; 
+        margin-bottom: 20px; 
     }
     .content-cards .card h2{    
         font-size: 28px;
@@ -429,11 +469,45 @@ footer .redes-sociales {
         margin: auto;
         font-size: 14px;
         line-height: 19px;
-        padding: 5%;
+        padding: 10px;
         text-align: center;
     }
     .color-3{ 
         right: 0px;        
         top: 1020px;        
+    }
+}
+@media (min-width: 2560px){
+    .content-cards .card{    
+        flex-direction: row;
+        border: 1px solid var(--text-green);
+        border-radius: 70px;
+        padding: 30px;
+        width: 30%;
+        height: 230px;
+    }
+    .content-title h1{
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .content-title p{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .content-info p{
+        font-size: 22px;
+        line-height: 32px;
+    }
+}
+@media (max-width: 1362px){
+    .card-content h3{
+        font-size: 20px;
+    }
+    .card-content p{
+        font-size: 16px;
+    }
+    .content-circle{
+        width: 50px;
+        height: 50px;
     }
 }

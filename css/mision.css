@@ -11,6 +11,9 @@
     border-bottom: 1px solid var(--bg-border);
     font-family: 'Weissenhof-light';
 }
+.navbar-section{
+    margin-bottom: 30px;
+}
 .navbar-nav{
     margin-left: auto;
 }
