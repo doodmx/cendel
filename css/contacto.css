@@ -53,7 +53,7 @@
     width: 100%;
     padding: 3rem;
     opacity: 1;
-    border-right: 1px solid var(--bg-border);
+    /* border-right: 1px solid var(--bg-border); */
 }
 
 .content-img .title {
@@ -144,6 +144,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
     border: 1px solid var(--bg-border);
     border-radius: 35px;
 }
@@ -196,6 +197,7 @@ footer .redes-sociales {
     color: #1D3638;
     margin-right: 1rem;
 }
+
 
 @media (min-width: 200px) and (max-width:991px) {
     .navbar .nav-item {
@@ -286,8 +288,17 @@ footer .redes-sociales {
     .content-img .title h2{
         margin-top: 40px;
     }
-
+}
+@media(min-width:2000px){
+    .content-form h4{
+        font-size: 36px;
+        margin: 120px 0;
+    }
+    .content-form input{
+        margin-bottom: 8%;
+    }
+    .content-form form{
+        margin-bottom: 10%;
+    }
     
-
-
 }
